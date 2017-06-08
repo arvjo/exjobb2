@@ -1,0 +1,66 @@
+﻿  Preprocessing: spmv.cl
+  Setting target instruction set architecture to: Default (Advanced Vector Extension 2 (AVX2))
+  OpenCL Intel CPU device was found!
+  Device name: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+  Device version: OpenCL 1.2 (Build 148)
+  Device vendor: Intel(R) Corporation
+  Device profile: FULL_PROFILE
+  Compilation started
+  Compilation done
+  Linking started
+  Linking done
+  Device build started
+  Device build done
+  Kernel <csr> was not vectorized
+  Done.
+  csr info:
+  	Maximum work-group size: 8192
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 128
+  	Minimum amount of private memory: 0
+  
+  Build succeeded!
+  
+  Source.cpp
+  Importing getopt library
+Source.cpp(269): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Source.cpp(274): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+Source.cpp(172): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'TCHAR *'
+  Source.cpp(172): note: consider using '%ls' in the format string
+  Source.cpp(172): note: consider using '%lls' in the format string
+  Source.cpp(172): note: consider using '%Ls' in the format string
+  Source.cpp(172): note: consider using '%ws' in the format string
+Source.cpp(197): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'TCHAR *'
+  Source.cpp(197): note: consider using '%ls' in the format string
+  Source.cpp(197): note: consider using '%lls' in the format string
+  Source.cpp(197): note: consider using '%Ls' in the format string
+  Source.cpp(197): note: consider using '%ws' in the format string
+Source.cpp(226): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'TCHAR *'
+  Source.cpp(226): note: consider using '%ls' in the format string
+  Source.cpp(226): note: consider using '%lls' in the format string
+  Source.cpp(226): note: consider using '%Ls' in the format string
+  Source.cpp(226): note: consider using '%ws' in the format string
+Source.cpp(333): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'TCHAR *'
+  Source.cpp(333): note: consider using '%ls' in the format string
+  Source.cpp(333): note: consider using '%lls' in the format string
+  Source.cpp(333): note: consider using '%Ls' in the format string
+  Source.cpp(333): note: consider using '%ws' in the format string
+Source.cpp(361): warning C4996: 'clCreateCommandQueue': was declared deprecated
+  C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.h(1428): note: see declaration of 'clCreateCommandQueue'
+Source.cpp(363): warning C4996: 'clCreateCommandQueue': was declared deprecated
+  C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.h(1428): note: see declaration of 'clCreateCommandQueue'
+Source.cpp(365): warning C4996: 'clCreateCommandQueue': was declared deprecated
+  C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.h(1428): note: see declaration of 'clCreateCommandQueue'
+Source.cpp(145): warning C4101: 'kernel_file_mode': unreferenced local variable
+Source.cpp(117): warning C4101: 'tv': unreferenced local variable
+Source.cpp(116): warning C4101: 'start_time': unreferenced local variable
+Source.cpp(116): warning C4101: 'end_time': unreferenced local variable
+Source.cpp(132): warning C4101: 'items_read': unreferenced local variable
+Source.cpp(132): warning C4101: 'kernelLength': unreferenced local variable
+Source.cpp(144): warning C4101: 'kernel_fp': unreferenced local variable
+Source.cpp(145): warning C4101: 'kernelSource': unreferenced local variable
+  SPMV2.vcxproj -> C:\Users\ArvidJ\Documents\Visual Studio 2015\Projects\SPMV2\Debug\SPMV2.exe
+  SPMV2.vcxproj -> C:\Users\ArvidJ\Documents\Visual Studio 2015\Projects\SPMV2\Debug\SPMV2.pdb (Full PDB)
+  spmv.cl
+          1 fil(er) kopierad(e).
