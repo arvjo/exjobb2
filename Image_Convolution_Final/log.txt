@@ -1,0 +1,46 @@
+Box blur 3x3: Failed 
+Diagonal motion blur 3x3: Failed 
+Sharpen 3x3: Failed 
+Horizontal edge detection 3x3: Failed 
+Box blur 3x3: Failed 
+Diagonal motion blur 3x3: Failed 
+Sharpen 3x3: Failed 
+Horizontal edge detection 3x3: Failed 
+Box blur 3x3: Failed 
+Diagonal motion blur 3x3: Failed 
+Sharpen 3x3: Failed 
+Horizontal edge detection 3x3: Failed 
+Box blur 3x3: Failed 
+Diagonal motion blur 3x3: Failed 
+Sharpen 3x3: Failed 
+Horizontal edge detection 3x3: Failed 
+Box blur 3x3: Failed 
+Diagonal motion blur 3x3: Failed 
+Sharpen 3x3: Failed 
+Box blur 3x3: Failed 
+Diagonal motion blur 3x3: Failed 
+Sharpen 3x3: Failed 
+Horizontal edge detection 3x3: Failed 
+Box blur 3x3: Failed 
+Diagonal motion blur 3x3: Failed 
+Sharpen 3x3: Failed 
+Horizontal edge detection 3x3: Failed 
+Box blur 3x3: Failed 
+Diagonal motion blur 3x3: Failed 
+Sharpen 3x3: Failed 
+Horizontal edge detection 3x3: Failed 
+Box blur 3x3: Failed 
+Diagonal motion blur 3x3: Failed 
+Sharpen 3x3: Failed 
+Horizontal edge detection 3x3: Failed 
+Box blur 3x3: Failed 
+Box blur 3x3			: Passed in 0.364021 seconds. 
+Diagonal motion blur 3x3: Failed 
+Sharpen 3x3: Failed 
+Horizontal edge detection 3x3: Failed 
+Box blur 3x3: Failed 
+Diagonal motion blur 3x3: Failed 
+Sharpen 3x3: Failed 
+Horizontal edge detection 3x3: Failed 
+Box blur 3x3: Failed 
+Diagonal motion blur 3x3: Failed 
