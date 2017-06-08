@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>opts.c</FILENAME>
+      <LINE>122</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>28182</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer. 'op' contains the same NULL value as 'options' did. </DESCRIPTION>
+    <FUNCTION>optssave</FUNCTION>
+    <DECORATED>optssave</DECORATED>
+    <FUNCLINE>103</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>104</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>105</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>106</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>107</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>109</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>110</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'options' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>113</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '!opts' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>116</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>117</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '!fp' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>alias</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>(alias) 'op' receives the value of 'options' (which may be NULL)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>122</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'op' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>opts.c</FILENAME>
+      <LINE>300</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>'char' passed as _Param_(1) when 'unsigned char' is required in call to 'isdigit'.</DESCRIPTION>
+    <FUNCTION>optsload</FUNCTION>
+    <DECORATED>optsload</DECORATED>
+    <FUNCLINE>264</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>opts.c</FILENAME>
+      <LINE>315</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6330</DEFECTCODE>
+    <DESCRIPTION>'char' passed as _Param_(1) when 'unsigned char' is required in call to 'isdigit'.</DESCRIPTION>
+    <FUNCTION>optsload</FUNCTION>
+    <DECORATED>optsload</DECORATED>
+    <FUNCLINE>264</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>opts.c</FILENAME>
+      <LINE>537</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'last_optstring' could be '0':  this does not adhere to the specification for the function 'strcpy'. </DESCRIPTION>
+    <FUNCTION>optsopt</FUNCTION>
+    <DECORATED>optsopt</DECORATED>
+    <FUNCLINE>518</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>519</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>520</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>522</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>529</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>533</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>534</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>535</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>536</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'last_optstring' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>537</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'last_optstring' is an In/Out argument to 'strcpy' (declared at c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h:119)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>opts.c</FILENAME>
+        <LINE>537</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'last_optstring' should not be NULL, because this is not consistent with the SAL annotation on 'strcpy'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

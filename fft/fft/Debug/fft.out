@@ -1,0 +1,27 @@
+Setting target instruction set architecture to: Default (Advanced Vector Extension 2 (AVX2))
+OpenCL Intel CPU device was found!
+Device name: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+Device version: OpenCL 1.2 (Build 148)
+Device vendor: Intel(R) Corporation
+Device profile: FULL_PROFILE
+Compilation started
+C:\Users\ArvidJ\documents\visual studio 2015\Projects\fft\fft\fft.cl(14,9) :warning CL : 'M_SQRT1_2' macro redefined
+c:\H\workspace\2014BDWPV_Build\7a7ade46\ocl\sdk\build\Win32\fe_compilers\clang_compiler\<stdin>:240:9: note: previous definition is here
+C:\Users\ArvidJ\documents\visual studio 2015\Projects\fft\fft\fft.cl(15,9) :warning CL : 'M_PI' macro redefined
+c:\H\workspace\2014BDWPV_Build\7a7ade46\ocl\sdk\build\Win32\fe_compilers\clang_compiler\<stdin>:233:9: note: previous definition is here
+C:\Users\ArvidJ\documents\visual studio 2015\Projects\fft\fft\fft.cl(11,26) :warning CL : unknown OpenCL extension 'cl_intel_printf' - ignoring
+Compilation done
+Linking started
+Linking done
+Device build started
+Device build done
+Kernel <fft0> was successfully vectorized
+Done.
+fft0 info:
+	Maximum work-group size: 680
+	Compiler work-group size: (0, 0, 0)
+	Local memory size: 8320
+	Preferred multiple of work-group size: 128
+	Minimum amount of private memory: 384
+
+Build succeeded!

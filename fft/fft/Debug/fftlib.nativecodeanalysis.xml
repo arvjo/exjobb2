@@ -1,0 +1,3168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>1754</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::detail::getPlatformVersion</FUNCTION>
+    <DECORATED>?getPlatformVersion@detail@cl@@YAIPAU_cl_platform_id@@@Z</DECORATED>
+    <FUNCLINE>1750</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>2115</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::Device::createSubDevices</FUNCTION>
+    <DECORATED>?createSubDevices@Device@cl@@QAEHPBHPAV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>2105</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>2233</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::Platform::getDevices</FUNCTION>
+    <DECORATED>?getDevices@Platform@cl@@QBEH_KPAV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>2220</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>2338</LINE>
+      <COLUMN>54</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::Platform::get</FUNCTION>
+    <DECORATED>?get@Platform@cl@@SAHPAV?$vector@VPlatform@cl@@V?$allocator@VPlatform@cl@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>2324</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>2367</LINE>
+      <COLUMN>54</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::Platform::get</FUNCTION>
+    <DECORATED>?get@Platform@cl@@SAHPAV12@@Z</DECORATED>
+    <FUNCLINE>2353</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>2396</LINE>
+      <COLUMN>54</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::Platform::get</FUNCTION>
+    <DECORATED>?get@Platform@cl@@SA?AV12@PAH@Z</DECORATED>
+    <FUNCLINE>2382</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>2485</LINE>
+      <COLUMN>56</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::Context::{ctor}</FUNCTION>
+    <DECORATED>??0Context@cl@@QAE@ABV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@PAHP6GXPBDPBXIPAX@Z41@Z</DECORATED>
+    <FUNCLINE>2471</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>2487</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'deviceIDs':  the writable size is 'numDevices*sizeof(_cl_device_id *)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>cl::Context::{ctor}</FUNCTION>
+    <DECORATED>??0Context@cl@@QAE@ABV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@PAHP6GXPBDPBXIPAX@Z41@Z</DECORATED>
+    <FUNCLINE>2471</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>2481</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>2482</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>2484</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>2485</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'deviceIDs' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>2486</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>2486</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'deviceIndex&lt;numDevices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>2487</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>2486</LINE>
+        <COLUMN>65</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'deviceIndex' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>2486</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'deviceIndex&lt;numDevices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>2487</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'deviceIndex' is an In/Out argument to 'std::vector&lt;cl::Device,std::allocator&lt;cl::Device&gt; &gt;::[]' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector:1213)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>2487</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'deviceIDs', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>2766</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::Context::getSupportedImageFormats</FUNCTION>
+    <DECORATED>?getSupportedImageFormats@Context@cl@@QBEH_KIPAV?$vector@UImageFormat@cl@@V?$allocator@UImageFormat@cl@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>2742</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5073</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::Program::{ctor}</FUNCTION>
+    <DECORATED>??0Program@cl@@QAE@ABVContext@1@ABV?$vector@U?$pair@PBDI@std@@V?$allocator@U?$pair@PBDI@std@@@2@@std@@PAH@Z</DECORATED>
+    <FUNCLINE>5065</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5074</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::Program::{ctor}</FUNCTION>
+    <DECORATED>??0Program@cl@@QAE@ABVContext@1@ABV?$vector@U?$pair@PBDI@std@@V?$allocator@U?$pair@PBDI@std@@@2@@std@@PAH@Z</DECORATED>
+    <FUNCLINE>5065</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5078</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'lengths':  the writable size is 'n*sizeof(size_t)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>cl::Program::{ctor}</FUNCTION>
+    <DECORATED>??0Program@cl@@QAE@ABVContext@1@ABV?$vector@U?$pair@PBDI@std@@V?$allocator@U?$pair@PBDI@std@@@2@@std@@PAH@Z</DECORATED>
+    <FUNCLINE>5065</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5069</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5070</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5072</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5073</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'lengths' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5074</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5076</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5076</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;n')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5077</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5078</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5076</LINE>
+        <COLUMN>36</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5076</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;n')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5077</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an In/Out argument to 'std::vector&lt;std::pair&lt;char const *,unsigned int&gt;,std::allocator&lt;std::pair&lt;char const *,unsigned int&gt; &gt; &gt;::[]' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector:1213)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5078</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an In/Out argument to 'std::vector&lt;std::pair&lt;char const *,unsigned int&gt;,std::allocator&lt;std::pair&lt;char const *,unsigned int&gt; &gt; &gt;::[]' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector:1213)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5078</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'lengths', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5077</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'strings':  the writable size is 'n*sizeof(const char *)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>cl::Program::{ctor}</FUNCTION>
+    <DECORATED>??0Program@cl@@QAE@ABVContext@1@ABV?$vector@U?$pair@PBDI@std@@V?$allocator@U?$pair@PBDI@std@@@2@@std@@PAH@Z</DECORATED>
+    <FUNCLINE>5065</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5069</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5070</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5072</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5073</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5074</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'strings' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5076</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5076</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;n')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5077</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5078</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5076</LINE>
+        <COLUMN>36</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5076</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;n')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5077</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an In/Out argument to 'std::vector&lt;std::pair&lt;char const *,unsigned int&gt;,std::allocator&lt;std::pair&lt;char const *,unsigned int&gt; &gt; &gt;::[]' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector:1213)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5077</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'strings', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5130</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::Program::{ctor}</FUNCTION>
+    <DECORATED>??0Program@cl@@QAE@ABVContext@1@ABV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@ABV?$vector@U?$pair@PBXI@std@@V?$allocator@U?$pair@PBXI@std@@@2@@4@PAV?$vector@HV?$allocator@H@std@@@4@PAH@Z</DECORATED>
+    <FUNCLINE>5109</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5131</LINE>
+      <COLUMN>69</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::Program::{ctor}</FUNCTION>
+    <DECORATED>??0Program@cl@@QAE@ABVContext@1@ABV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@ABV?$vector@U?$pair@PBXI@std@@V?$allocator@U?$pair@PBXI@std@@@2@@4@PAV?$vector@HV?$allocator@H@std@@@4@PAH@Z</DECORATED>
+    <FUNCLINE>5109</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5138</LINE>
+      <COLUMN>56</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::Program::{ctor}</FUNCTION>
+    <DECORATED>??0Program@cl@@QAE@ABVContext@1@ABV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@ABV?$vector@U?$pair@PBXI@std@@V?$allocator@U?$pair@PBXI@std@@@2@@4@PAV?$vector@HV?$allocator@H@std@@@4@PAH@Z</DECORATED>
+    <FUNCLINE>5109</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5134</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'images':  the writable size is 'numDevices*sizeof(const unsigned char **)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>cl::Program::{ctor}</FUNCTION>
+    <DECORATED>??0Program@cl@@QAE@ABVContext@1@ABV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@ABV?$vector@U?$pair@PBXI@std@@V?$allocator@U?$pair@PBXI@std@@@2@@4@PAV?$vector@HV?$allocator@H@std@@@4@PAH@Z</DECORATED>
+    <FUNCLINE>5109</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5115</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5116</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5118</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5121</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5130</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5131</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'images' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5133</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5133</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;numDevices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5134</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5135</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5133</LINE>
+        <COLUMN>45</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5133</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;numDevices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5134</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an In/Out argument to 'std::vector&lt;std::pair&lt;void const *,unsigned int&gt;,std::allocator&lt;std::pair&lt;void const *,unsigned int&gt; &gt; &gt;::[]' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector:1213)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5134</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'images', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5135</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'lengths':  the writable size is 'numDevices*sizeof(size_t)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>cl::Program::{ctor}</FUNCTION>
+    <DECORATED>??0Program@cl@@QAE@ABVContext@1@ABV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@ABV?$vector@U?$pair@PBXI@std@@V?$allocator@U?$pair@PBXI@std@@@2@@4@PAV?$vector@HV?$allocator@H@std@@@4@PAH@Z</DECORATED>
+    <FUNCLINE>5109</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5115</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5116</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5118</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5121</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5130</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'lengths' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5131</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5133</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5133</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;numDevices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5134</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5135</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5133</LINE>
+        <COLUMN>45</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5133</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;numDevices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5134</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an In/Out argument to 'std::vector&lt;std::pair&lt;void const *,unsigned int&gt;,std::allocator&lt;std::pair&lt;void const *,unsigned int&gt; &gt; &gt;::[]' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector:1213)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5135</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an In/Out argument to 'std::vector&lt;std::pair&lt;void const *,unsigned int&gt;,std::allocator&lt;std::pair&lt;void const *,unsigned int&gt; &gt; &gt;::[]' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector:1213)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5135</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'lengths', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5176</LINE>
+      <COLUMN>56</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::Program::{ctor}</FUNCTION>
+    <DECORATED>??0Program@cl@@QAE@ABVContext@1@ABV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@PAH@Z</DECORATED>
+    <FUNCLINE>5166</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5178</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'deviceIDs':  the writable size is 'numDevices*sizeof(_cl_device_id *)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>cl::Program::{ctor}</FUNCTION>
+    <DECORATED>??0Program@cl@@QAE@ABVContext@1@ABV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@PAH@Z</DECORATED>
+    <FUNCLINE>5166</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5171</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5172</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5175</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5176</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'deviceIDs' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5177</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5177</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'deviceIndex&lt;numDevices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5178</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5177</LINE>
+        <COLUMN>65</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'deviceIndex' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5177</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'deviceIndex&lt;numDevices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5178</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'deviceIndex' is an In/Out argument to 'std::vector&lt;cl::Device,std::allocator&lt;cl::Device&gt; &gt;::[]' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector:1213)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5178</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'deviceIDs', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5242</LINE>
+      <COLUMN>56</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::Program::build</FUNCTION>
+    <DECORATED>?build@Program@cl@@QBEHABV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@PBDP6GXPAU_cl_program@@PAX@Z3@Z</DECORATED>
+    <FUNCLINE>5235</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5244</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'deviceIDs':  the writable size is 'numDevices*sizeof(_cl_device_id *)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>cl::Program::build</FUNCTION>
+    <DECORATED>?build@Program@cl@@QBEHABV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@PBDP6GXPAU_cl_program@@PAX@Z3@Z</DECORATED>
+    <FUNCLINE>5235</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5241</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5242</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'deviceIDs' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5243</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5243</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'deviceIndex&lt;numDevices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5244</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5243</LINE>
+        <COLUMN>65</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'deviceIndex' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5243</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'deviceIndex&lt;numDevices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5244</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'deviceIndex' is an In/Out argument to 'std::vector&lt;cl::Device,std::allocator&lt;cl::Device&gt; &gt;::[]' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector:1213)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5244</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'deviceIDs', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5348</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::Program::createKernels</FUNCTION>
+    <DECORATED>?createKernels@Program@cl@@QAEHPAV?$vector@VKernel@cl@@V?$allocator@VKernel@cl@@@std@@@std@@@Z</DECORATED>
+    <FUNCLINE>5340</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5406</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::linkProgram</FUNCTION>
+    <DECORATED>?linkProgram@cl@@YA?AVProgram@1@V?$vector@VProgram@cl@@V?$allocator@VProgram@cl@@@std@@@std@@PBDP6GXPAU_cl_program@@PAX@Z3PAH@Z</DECORATED>
+    <FUNCLINE>5397</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>5410</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'programs':  the writable size is 'inputPrograms.size()*sizeof(_cl_program *)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>cl::linkProgram</FUNCTION>
+    <DECORATED>?linkProgram@cl@@YA?AVProgram@1@V?$vector@VProgram@cl@@V?$allocator@VProgram@cl@@@std@@@std@@PBDP6GXPAU_cl_program@@PAX@Z3PAH@Z</DECORATED>
+    <FUNCLINE>5397</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5404</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5406</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5408</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'programs' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5409</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5409</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;inputPrograms.size()')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5410</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5409</LINE>
+        <COLUMN>60</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5409</LINE>
+        <COLUMN>35</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;inputPrograms.size()')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5410</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an In/Out argument to 'std::vector&lt;cl::Program,std::allocator&lt;cl::Program&gt; &gt;::[]' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector:1229)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>5410</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'programs', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>6300</LINE>
+      <COLUMN>61</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::CommandQueue::enqueueMigrateMemObjects</FUNCTION>
+    <DECORATED>?enqueueMigrateMemObjects@CommandQueue@cl@@QAEHABV?$vector@VMemory@cl@@V?$allocator@VMemory@cl@@@std@@@std@@_KPBV?$vector@VEvent@cl@@V?$allocator@VEvent@cl@@@std@@@4@PAVEvent@2@@Z</DECORATED>
+    <FUNCLINE>6291</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>6302</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'localMemObjects':  the writable size is 'memObjects.size()*sizeof(_cl_mem *)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>cl::CommandQueue::enqueueMigrateMemObjects</FUNCTION>
+    <DECORATED>?enqueueMigrateMemObjects@CommandQueue@cl@@QAEHABV?$vector@VMemory@cl@@V?$allocator@VMemory@cl@@@std@@@std@@_KPBV?$vector@VEvent@cl@@V?$allocator@VEvent@cl@@@std@@@4@PAVEvent@2@@Z</DECORATED>
+    <FUNCLINE>6291</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6298</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6300</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'localMemObjects' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6301</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6301</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;(int)memObjects.size()')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6302</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6301</LINE>
+        <COLUMN>52</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6301</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;(int)memObjects.size()')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6302</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an In/Out argument to 'std::vector&lt;cl::Memory,std::allocator&lt;cl::Memory&gt; &gt;::[]' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector:1213)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6302</LINE>
+        <COLUMN>31</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'localMemObjects', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>6379</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::CommandQueue::enqueueNativeKernel</FUNCTION>
+    <DECORATED>?enqueueNativeKernel@CommandQueue@cl@@QBEHP6GXPAX@ZU?$pair@PAXI@std@@PBV?$vector@VMemory@cl@@V?$allocator@VMemory@cl@@@std@@@4@PBV?$vector@PBXV?$allocator@PBX@std@@@4@PBV?$vector@VEvent@cl@@V?$allocator@VEvent@cl@@@std@@@4@PAVEvent@2@@Z</DECORATED>
+    <FUNCLINE>6370</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>6384</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'mems':  the writable size is 'mem_objects-&gt;size()*sizeof(_cl_mem *)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>cl::CommandQueue::enqueueNativeKernel</FUNCTION>
+    <DECORATED>?enqueueNativeKernel@CommandQueue@cl@@QBEHP6GXPAX@ZU?$pair@PAXI@std@@PBV?$vector@VMemory@cl@@V?$allocator@VMemory@cl@@@std@@@4@PBV?$vector@PBXV?$allocator@PBX@std@@@4@PBV?$vector@VEvent@cl@@V?$allocator@VEvent@cl@@@std@@@4@PAVEvent@2@@Z</DECORATED>
+    <FUNCLINE>6370</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6378</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6382</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'mems' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6383</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6383</LINE>
+        <COLUMN>39</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;mem_objects-&gt;size()')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6384</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6383</LINE>
+        <COLUMN>63</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6383</LINE>
+        <COLUMN>39</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;mem_objects-&gt;size()')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>6384</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'mems', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>support.h</FILENAME>
+      <LINE>299</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'ptx_code':  the readable size is 'num_devices*sizeof(char *)' bytes, but '8' bytes may be read.</DESCRIPTION>
+    <FUNCTION>oclGetProgBinary</FUNCTION>
+    <DECORATED>?oclGetProgBinary@@YAXPAU_cl_program@@PAU_cl_device_id@@PAPADPAI@Z</DECORATED>
+    <FUNCLINE>263</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>274</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>278</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ptx_code' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>282</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'ptx_code' is an In/Out argument to 'clGetProgramInfo' (declared at c:\program files (x86)\intel\opencl sdk\6.3\include\cl\cl.h:939)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>285</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>289</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>297</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>298</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>298</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;num_devices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>299</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'i!=idx' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>298</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>298</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;num_devices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>299</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'i!=idx')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>299</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Input to 'free' (declared at c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_malloc.h:85)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>299</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'ptx_code', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>support.h</FILENAME>
+      <LINE>286</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'devices':  the readable size is 'num_devices*sizeof(_cl_device_id *)' bytes, but '8' bytes may be read.</DESCRIPTION>
+    <FUNCTION>oclGetProgBinary</FUNCTION>
+    <DECORATED>?oclGetProgBinary@@YAXPAU_cl_program@@PAU_cl_device_id@@PAPADPAI@Z</DECORATED>
+    <FUNCLINE>263</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'devices' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'devices' is an In/Out argument to 'clGetProgramInfo' (declared at c:\program files (x86)\intel\opencl sdk\6.3\include\cl\cl.h:939)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>274</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>278</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>282</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>285</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>57</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'idx' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'devices', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>support.h</FILENAME>
+      <LINE>280</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'binary_sizes':  the readable size is 'num_devices*sizeof(size_t)' bytes, but '8' bytes may be read.</DESCRIPTION>
+    <FUNCTION>oclGetProgBinary</FUNCTION>
+    <DECORATED>?oclGetProgBinary@@YAXPAU_cl_program@@PAU_cl_device_id@@PAPADPAI@Z</DECORATED>
+    <FUNCLINE>263</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>274</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'binary_sizes' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'binary_sizes' is an In/Out argument to 'clGetProgramInfo' (declared at c:\program files (x86)\intel\opencl sdk\6.3\include\cl\cl.h:939)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>278</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;num_devices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;num_devices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Input to 'malloc' (declared at c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_malloc.h:97)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'binary_sizes', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>support.h</FILENAME>
+      <LINE>280</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'ptx_code':  the writable size is 'num_devices*sizeof(char *)' bytes, but '8' bytes might be written.</DESCRIPTION>
+    <FUNCTION>oclGetProgBinary</FUNCTION>
+    <DECORATED>?oclGetProgBinary@@YAXPAU_cl_program@@PAU_cl_device_id@@PAPADPAI@Z</DECORATED>
+    <FUNCLINE>263</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>274</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>278</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ptx_code' is a 0 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;num_devices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;num_devices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'i' is an Input to 'malloc' (declared at c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_malloc.h:97)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'ptx_code', (outside its writable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>support.h</FILENAME>
+      <LINE>280</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'ptx_code'. </DESCRIPTION>
+    <FUNCTION>oclGetProgBinary</FUNCTION>
+    <DECORATED>?oclGetProgBinary@@YAXPAU_cl_program@@PAU_cl_device_id@@PAPADPAI@Z</DECORATED>
+    <FUNCLINE>263</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>274</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>275</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>278</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ptx_code' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;num_devices')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ptx_code' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>support.h</FILENAME>
+      <LINE>328</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'cdDevices'. </DESCRIPTION>
+    <FUNCTION>oclGetFirstDev</FUNCTION>
+    <DECORATED>?oclGetFirstDev@@YAPAU_cl_device_id@@PAU_cl_context@@@Z</DECORATED>
+    <FUNCLINE>317</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>319</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>320</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>324</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'cdDevices' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>326</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'cdDevices' is an In/Out argument to 'clGetContextInfo' (declared at c:\program files (x86)\intel\opencl sdk\6.3\include\cl\cl.h:739)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>328</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'cdDevices' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>support.h</FILENAME>
+      <LINE>372</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'ptx_code'.</DESCRIPTION>
+    <FUNCTION>dumpPTXCode</FUNCTION>
+    <DECORATED>?dumpPTXCode@@YA_NPAU_cl_context@@PAU_cl_program@@PBD@Z</DECORATED>
+    <FUNCLINE>351</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>353</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>354</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>355</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>356</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>357</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>359</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>360</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>364</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>366</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>371</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ptx_code' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>support.h</FILENAME>
+        <LINE>372</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'ptx_code' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>fftlib.cpp</FILENAME>
+      <LINE>46</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'opt' could be '0':  this does not adhere to the specification for the function 'sprintf'. </DESCRIPTION>
+    <FUNCTION>setGlobalOption</FUNCTION>
+    <DECORATED>?setGlobalOption@@YAXAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HH@Z</DECORATED>
+    <FUNCLINE>24</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'opt' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>29</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>30</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>31</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>32</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'err!=0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'opt' is an Input to 'sprintf' (declared at c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h:1769)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'opt' should not be NULL, because this is not consistent with the SAL annotation on 'sprintf'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>fftlib.cpp</FILENAME>
+      <LINE>73</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'cl_source_fft' could be '0':  this does not adhere to the specification for the function 'fread'. </DESCRIPTION>
+    <FUNCTION>createKernelWithSource</FUNCTION>
+    <DECORATED>?createKernelWithSource@@YAXXZ</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>55</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>63</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>65</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>69</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'cl_source_fft' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'cl_source_fft' is an In/Out argument to 'fread' (declared at c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h:231)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>73</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'cl_source_fft' should not be NULL, because this is not consistent with the SAL annotation on 'fread'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>fftlib.cpp</FILENAME>
+      <LINE>106</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6336</DEFECTCODE>
+    <DESCRIPTION>Arithmetic operator has precedence over question operator, use parentheses to clarify intent.</DESCRIPTION>
+    <FUNCTION>getLocalDimension</FUNCTION>
+    <DECORATED>?getLocalDimension@@YAXAAI0HH@Z</DECORATED>
+    <FUNCLINE>83</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>fftlib.cpp</FILENAME>
+      <LINE>121</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'Radix1' hides previous declaration at line '16' of 'c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\fftlib.cpp'.</DESCRIPTION>
+    <FUNCTION>getGlobalDimension</FUNCTION>
+    <DECORATED>?getGlobalDimension@@YAXAAI0HHH@Z</DECORATED>
+    <FUNCLINE>116</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>fftlib.cpp</FILENAME>
+      <LINE>121</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'Radix2' hides previous declaration at line '16' of 'c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\fftlib.cpp'.</DESCRIPTION>
+    <FUNCTION>getGlobalDimension</FUNCTION>
+    <DECORATED>?getGlobalDimension@@YAXAAI0HHH@Z</DECORATED>
+    <FUNCLINE>116</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>fftlib.cpp</FILENAME>
+      <LINE>125</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'SI' hides previous declaration at line '16' of 'c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\fftlib.cpp'.</DESCRIPTION>
+    <FUNCTION>getGlobalDimension</FUNCTION>
+    <DECORATED>?getGlobalDimension@@YAXAAI0HHH@Z</DECORATED>
+    <FUNCLINE>116</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>fftlib.cpp</FILENAME>
+      <LINE>200</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'Radix1' hides previous declaration at line '16' of 'c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\fftlib.cpp'.</DESCRIPTION>
+    <FUNCTION>getGlobalRadix</FUNCTION>
+    <DECORATED>?getGlobalRadix@@YAXHPAH000@Z</DECORATED>
+    <FUNCLINE>200</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>fftlib.cpp</FILENAME>
+      <LINE>200</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>Local declaration of 'Radix2' hides previous declaration at line '16' of 'c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\fftlib.cpp'.</DESCRIPTION>
+    <FUNCTION>getGlobalRadix</FUNCTION>
+    <DECORATED>?getGlobalRadix@@YAXHPAH000@Z</DECORATED>
+    <FUNCLINE>200</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+        <FILENAME>fftlib.cpp</FILENAME>
+        <LINE>16</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>fftlib.cpp</FILENAME>
+      <LINE>243</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '50072' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>init2</FUNCTION>
+    <DECORATED>?init2@@YAXAAVOptionParser@@_NHH@Z</DECORATED>
+    <FUNCLINE>243</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>fftlib.cpp</FILENAME>
+      <LINE>311</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '50468' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>init</FUNCTION>
+    <DECORATED>?init@@YAXAAVOptionParser@@_NH@Z</DECORATED>
+    <FUNCLINE>311</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\</FILEPATH>
+      <FILENAME>fftlib.cpp</FILENAME>
+      <LINE>323</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6271</DEFECTCODE>
+    <DESCRIPTION>Extra argument passed to 'sprintf':  _Param_(6) is not used by the format string.</DESCRIPTION>
+    <FUNCTION>init</FUNCTION>
+    <DECORATED>?init@@YAXAAVOptionParser@@_NH@Z</DECORATED>
+    <FUNCLINE>311</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>1171</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::detail::getInfoHelper</FUNCTION>
+    <DECORATED>??$getInfoHelper@U?$GetInfoFunctor0@P6GHPAU_cl_context@@IIPAXPAI@ZPAU1@@detail@cl@@VDevice@3@@detail@cl@@YAHU?$GetInfoFunctor0@P6GHPAU_cl_context@@IIPAXPAI@ZPAU1@@01@IPAV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@HPAU_cl_device_id@@@Z</DECORATED>
+    <FUNCLINE>1163</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>1181</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'value':  the readable size is 'required' bytes, but '8' bytes may be read.</DESCRIPTION>
+    <FUNCTION>cl::detail::getInfoHelper</FUNCTION>
+    <DECORATED>??$getInfoHelper@U?$GetInfoFunctor0@P6GHPAU_cl_context@@IIPAXPAI@ZPAU1@@detail@cl@@VDevice@3@@detail@cl@@YAHU?$GetInfoFunctor0@P6GHPAU_cl_context@@IIPAXPAI@ZPAU1@@01@IPAV?$vector@VDevice@cl@@V?$allocator@VDevice@cl@@@std@@@std@@HPAU_cl_device_id@@@Z</DECORATED>
+    <FUNCLINE>1163</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>1165</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>1166</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>1167</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>1171</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'value' is an array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>1172</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'value' is an In/Out argument to 'cl::detail::GetInfoFunctor0&lt;int (__stdcall*)(_cl_context *,unsigned int,unsigned int,void *,unsigned int *),_cl_context *&gt;::()' (declared on line 1575)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>1173</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'err!=0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>1177</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>1178</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'value' is an Output from 'std::vector&lt;cl::Device,std::allocator&lt;cl::Device&gt; &gt;::assign' (declared at c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector:1322)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>1179</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>1179</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;elements')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>1181</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'value[i]!=0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>1179</LINE>
+        <COLUMN>40</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'i' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>1179</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;elements')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>1181</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'value[i]!=0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+        <FILENAME>cl.hpp</FILENAME>
+        <LINE>1181</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'value', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\program files (x86)\intel\opencl sdk\6.3\include\cl\</FILEPATH>
+      <FILENAME>cl.hpp</FILENAME>
+      <LINE>1146</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>cl::detail::getInfoHelper</FUNCTION>
+    <DECORATED>??$getInfoHelper@U?$GetInfoFunctor0@P6GHPAU_cl_program@@IIPAXPAI@ZPAU1@@detail@cl@@I@detail@cl@@YAHU?$GetInfoFunctor0@P6GHPAU_cl_program@@IIPAXPAI@ZPAU1@@01@IPAV?$vector@IV?$allocator@I@std@@@std@@J@Z</DECORATED>
+    <FUNCLINE>1138</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

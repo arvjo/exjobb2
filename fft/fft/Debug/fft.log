@@ -1,0 +1,54 @@
+﻿  Preprocessing: fft.cl
+  Setting target instruction set architecture to: Default (Advanced Vector Extension 2 (AVX2))
+  OpenCL Intel CPU device was found!
+  Device name: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+  Device version: OpenCL 1.2 (Build 148)
+  Device vendor: Intel(R) Corporation
+  Device profile: FULL_PROFILE
+  Compilation started
+C:\Users\ArvidJ\documents\visual studio 2015\Projects\fft\fft\fft.cl(14,9): warning CL: 'M_SQRT1_2' macro redefined
+  c:\H\workspace\2014BDWPV_Build\7a7ade46\ocl\sdk\build\Win32\fe_compilers\clang_compiler\<stdin>:240:9: note: previous definition is here
+C:\Users\ArvidJ\documents\visual studio 2015\Projects\fft\fft\fft.cl(15,9): warning CL: 'M_PI' macro redefined
+  c:\H\workspace\2014BDWPV_Build\7a7ade46\ocl\sdk\build\Win32\fe_compilers\clang_compiler\<stdin>:233:9: note: previous definition is here
+C:\Users\ArvidJ\documents\visual studio 2015\Projects\fft\fft\fft.cl(11,26): warning CL: unknown OpenCL extension 'cl_intel_printf' - ignoring
+  Compilation done
+  Linking started
+  Linking done
+  Device build started
+  Device build done
+  Kernel <fft0> was successfully vectorized
+  Done.
+  fft0 info:
+  	Maximum work-group size: 680
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 8320
+  	Preferred multiple of work-group size: 128
+  	Minimum amount of private memory: 384
+  
+  Build succeeded!
+  
+  fft.cpp
+C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL\cl.hpp(4645): warning C4996: 'clCreateSampler': was declared deprecated
+  C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.h(1435): note: see declaration of 'clCreateSampler'
+C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL\cl.hpp(5505): warning C4996: 'clCreateCommandQueue': was declared deprecated
+  C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.h(1428): note: see declaration of 'clCreateCommandQueue'
+C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL\cl.hpp(5536): warning C4996: 'clCreateCommandQueue': was declared deprecated
+  C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.h(1428): note: see declaration of 'clCreateCommandQueue'
+C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL\cl.hpp(5553): warning C4996: 'clCreateCommandQueue': was declared deprecated
+  C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.h(1428): note: see declaration of 'clCreateCommandQueue'
+C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL\cl.hpp(6357): warning C4996: 'clEnqueueTask': was declared deprecated
+  C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.h(1442): note: see declaration of 'clEnqueueTask'
+c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\support.h(360): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\support.h(364): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\support.h(397): warning C4244: 'return': conversion from 'cl_ulong' to 'unsigned long', possible loss of data
+c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\support.h(406): warning C4244: 'return': conversion from 'cl_ulong' to 'unsigned long', possible loss of data
+c:\users\arvidj\documents\visual studio 2015\projects\fft\fft\ResultDatabase.h(63): warning C4018: '<': signed/unsigned mismatch
+fft.cpp(140): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  fft.cpp(78): note: see reference to function template instantiation 'void dump2D<cplxflt>(OptionParser &)' being compiled
+fft.cpp(141): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  fft.vcxproj -> C:\Users\ArvidJ\Documents\Visual Studio 2015\Projects\fft\Debug\fft.exe
+  fft.vcxproj -> C:\Users\ArvidJ\Documents\Visual Studio 2015\Projects\fft\Debug\fft.pdb (Full PDB)
+  fft.cl
+          1 fil(er) kopierad(e).
