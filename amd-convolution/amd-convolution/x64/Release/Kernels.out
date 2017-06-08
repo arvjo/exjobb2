@@ -1,0 +1,102 @@
+Setting target instruction set architecture to: Default (Advanced Vector Extension 2 (AVX2))
+OpenCL Intel CPU device was found!
+Device name: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+Device version: OpenCL 1.2 (Build 148)
+Device vendor: Intel(R) Corporation
+Device profile: FULL_PROFILE
+Compilation started
+Compilation done
+Linking started
+Linking done
+Device build started
+Device build done
+Kernel <Convolve> was successfully vectorized
+Kernel <Convolve_Unroll> was successfully vectorized
+Kernel <Convolve_UnrollIf> was successfully vectorized
+Kernel <Convolve_Def> was successfully vectorized
+Kernel <Convolve_Def_Unroll> was successfully vectorized
+Kernel <Convolve_Def_UnrollIf> was successfully vectorized
+Kernel <Convolve_Float4> was successfully vectorized
+Kernel <Convolve_Float4If> was not vectorized
+Kernel <Convolve_Def_Float4> was successfully vectorized
+Kernel <Convolve_Def_Float4If> was not vectorized
+Kernel <convoluteGPU> was not vectorized
+Done.
+Convolve info:
+	Maximum work-group size: 8192
+	Compiler work-group size: (0, 0, 0)
+	Local memory size: 0
+	Preferred multiple of work-group size: 128
+	Minimum amount of private memory: 0
+
+Convolve_Unroll info:
+	Maximum work-group size: 8192
+	Compiler work-group size: (0, 0, 0)
+	Local memory size: 0
+	Preferred multiple of work-group size: 128
+	Minimum amount of private memory: 0
+
+Convolve_UnrollIf info:
+	Maximum work-group size: 8192
+	Compiler work-group size: (0, 0, 0)
+	Local memory size: 0
+	Preferred multiple of work-group size: 128
+	Minimum amount of private memory: 0
+
+Convolve_Def info:
+	Maximum work-group size: 8192
+	Compiler work-group size: (0, 0, 0)
+	Local memory size: 0
+	Preferred multiple of work-group size: 128
+	Minimum amount of private memory: 0
+
+Convolve_Def_Unroll info:
+	Maximum work-group size: 8192
+	Compiler work-group size: (0, 0, 0)
+	Local memory size: 0
+	Preferred multiple of work-group size: 128
+	Minimum amount of private memory: 0
+
+Convolve_Def_UnrollIf info:
+	Maximum work-group size: 8192
+	Compiler work-group size: (0, 0, 0)
+	Local memory size: 0
+	Preferred multiple of work-group size: 128
+	Minimum amount of private memory: 0
+
+Convolve_Float4 info:
+	Maximum work-group size: 8192
+	Compiler work-group size: (0, 0, 0)
+	Local memory size: 0
+	Preferred multiple of work-group size: 128
+	Minimum amount of private memory: 0
+
+Convolve_Float4If info:
+	Maximum work-group size: 8192
+	Compiler work-group size: (0, 0, 0)
+	Local memory size: 0
+	Preferred multiple of work-group size: 128
+	Minimum amount of private memory: 0
+
+Convolve_Def_Float4 info:
+	Maximum work-group size: 8192
+	Compiler work-group size: (0, 0, 0)
+	Local memory size: 0
+	Preferred multiple of work-group size: 128
+	Minimum amount of private memory: 0
+
+Convolve_Def_Float4If info:
+	Maximum work-group size: 8192
+	Compiler work-group size: (0, 0, 0)
+	Local memory size: 0
+	Preferred multiple of work-group size: 128
+	Minimum amount of private memory: 0
+
+convoluteGPU info:
+	Maximum work-group size: 4096
+	Compiler work-group size: (0, 0, 0)
+	Local memory size: 0
+	Preferred multiple of work-group size: 128
+	Minimum amount of private memory: 128
+
+Build succeeded!

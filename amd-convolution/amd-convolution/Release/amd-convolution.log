@@ -1,0 +1,125 @@
+﻿  Preprocessing: Kernels.cl
+  Setting target instruction set architecture to: Default (Advanced Vector Extension 2 (AVX2))
+  OpenCL Intel CPU device was found!
+  Device name: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
+  Device version: OpenCL 1.2 (Build 148)
+  Device vendor: Intel(R) Corporation
+  Device profile: FULL_PROFILE
+  Compilation started
+  Compilation done
+  Linking started
+  Linking done
+  Device build started
+  Device build done
+  Kernel <Convolve> was successfully vectorized
+  Kernel <Convolve_Unroll> was successfully vectorized
+  Kernel <Convolve_UnrollIf> was successfully vectorized
+  Kernel <Convolve_Def> was successfully vectorized
+  Kernel <Convolve_Def_Unroll> was successfully vectorized
+  Kernel <Convolve_Def_UnrollIf> was successfully vectorized
+  Kernel <Convolve_Float4> was successfully vectorized
+  Kernel <Convolve_Float4If> was not vectorized
+  Kernel <Convolve_Def_Float4> was successfully vectorized
+  Kernel <Convolve_Def_Float4If> was not vectorized
+  Kernel <convoluteGPU> was not vectorized
+  Done.
+  Convolve info:
+  	Maximum work-group size: 8192
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 128
+  	Minimum amount of private memory: 0
+  
+  Convolve_Unroll info:
+  	Maximum work-group size: 8192
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 128
+  	Minimum amount of private memory: 0
+  
+  Convolve_UnrollIf info:
+  	Maximum work-group size: 8192
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 128
+  	Minimum amount of private memory: 0
+  
+  Convolve_Def info:
+  	Maximum work-group size: 8192
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 128
+  	Minimum amount of private memory: 0
+  
+  Convolve_Def_Unroll info:
+  	Maximum work-group size: 8192
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 128
+  	Minimum amount of private memory: 0
+  
+  Convolve_Def_UnrollIf info:
+  	Maximum work-group size: 8192
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 128
+  	Minimum amount of private memory: 0
+  
+  Convolve_Float4 info:
+  	Maximum work-group size: 8192
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 128
+  	Minimum amount of private memory: 0
+  
+  Convolve_Float4If info:
+  	Maximum work-group size: 8192
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 128
+  	Minimum amount of private memory: 0
+  
+  Convolve_Def_Float4 info:
+  	Maximum work-group size: 8192
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 128
+  	Minimum amount of private memory: 0
+  
+  Convolve_Def_Float4If info:
+  	Maximum work-group size: 8192
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 128
+  	Minimum amount of private memory: 0
+  
+  convoluteGPU info:
+  	Maximum work-group size: 2048
+  	Compiler work-group size: (0, 0, 0)
+  	Local memory size: 0
+  	Preferred multiple of work-group size: 128
+  	Minimum amount of private memory: 128
+  
+  Build succeeded!
+  
+  main.cpp
+C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.hpp(4645): warning C4996: 'clCreateSampler': was declared deprecated
+  C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.h(1435): note: see declaration of 'clCreateSampler'
+C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.hpp(5505): warning C4996: 'clCreateCommandQueue': was declared deprecated
+  C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.h(1428): note: see declaration of 'clCreateCommandQueue'
+C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.hpp(5536): warning C4996: 'clCreateCommandQueue': was declared deprecated
+  C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.h(1428): note: see declaration of 'clCreateCommandQueue'
+C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.hpp(5553): warning C4996: 'clCreateCommandQueue': was declared deprecated
+  C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.h(1428): note: see declaration of 'clCreateCommandQueue'
+C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.hpp(6357): warning C4996: 'clEnqueueTask': was declared deprecated
+  C:\Program Files (x86)\Intel\OpenCL SDK\6.3\include\CL/cl.h(1442): note: see declaration of 'clEnqueueTask'
+c:\users\arvidj\documents\amd-conv\convolution.5(vectorized)\src\Params.h(191): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\users\arvidj\documents\amd-conv\convolution.5(vectorized)\src\Params.h(203): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\users\arvidj\documents\amd-conv\convolution.5(vectorized)\src\Params.h(215): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+c:\users\arvidj\documents\amd-conv\convolution.5(vectorized)\src\Params.h(227): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+..\..\..\..\AMD-conv\Convolution.5(vectorized)\src\main.cpp(106): fatal error C1083: Cannot open include file: 'opencv2\core.hpp': No such file or directory
+  Timer.cpp
